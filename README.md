@@ -8,3 +8,4 @@ Usage:
     docker run -it -v /c/git-repositories/YOURREPO:/tmp/snap koppor/docker-snapcraft-java-de bash
 
 Then `cd` into `/tmp/snap` and do your usual snap work.
+Typically, `snapcraft build` to check the build.
