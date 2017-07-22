@@ -6,5 +6,4 @@ RUN apt-get update -qq &&\
     apt-get upgrade -qq &&\
     apt-get install -y -qq default-jre-headless default-jdk openjfx ca-certificates-java &&\
     apt-get clean &&\
-    apt-get autoremove --purge -qq&&\
-    rm -rf /var/lib/apt/lists/*
+    apt-get autoremove --purge -qq
