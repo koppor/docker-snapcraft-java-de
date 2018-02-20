@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Added package `lxd`
+
 ### Changed
 - Change from `default-jdk` to `default-jdk-headless`
 - Improved `CHANGELOG.md` to be more close too "Keep a Changelog"
